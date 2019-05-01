@@ -2,12 +2,16 @@
 //  Constants.swift
 //  SaveLocally
 //
-//  Created by f6476359 on 01/05/19.
+//  Created by Luiz Dias on 01/05/19.
 //  Copyright © 2019 Luiz Fernando Dias. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class Constants: NSObject {
+struct EntityNames {
+    static let comment = "Comment"
+}
 
+struct CommentKeys {
+    static let textKey = "text"
 }
