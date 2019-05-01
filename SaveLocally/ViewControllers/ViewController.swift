@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         guard let newText = commentTextView.text else {
             return
         }
-        newComments.append(newText)
+        newComments.insert(newText, at: 0)  // To insert AFTER:  newComments.append(newText)
         
         guard let commentsTableView = self.children[0] as? TableViewController else {
             return
